@@ -13,7 +13,6 @@ h5,
 h6 {
   color: #1c1c57;
   font-weight: 500;
-  margin: 10px 0;
   letter-spacing: -0.82px;
 }
 
@@ -53,17 +52,6 @@ p {
   border: 1px solid #078d84;
 }
 
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  display: inline;
-}
-
 .bg-color {
   background-color: #f6f8ff;
 }
@@ -78,4 +66,17 @@ ul li {
 
 .bg3-color {
   background-color: #1c1c57;
+}
+
+/* Hero Wrapper Css */
+
+.hero-content h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero-content h2 {
+  font-size: 56px;
+  line-height: 62px;
 }
