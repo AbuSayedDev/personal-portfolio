@@ -1,8 +1,8 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -11,74 +11,71 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1C1C57;
-    font-weight: 500;
-    margin: 10px 0;
-    letter-spacing: -0.82px;
+  color: #1c1c57;
+  font-weight: 500;
+  margin: 10px 0;
+  letter-spacing: -0.82px;
 }
 
 a {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 p {
-    color: #3E3E70;
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 400;
+  color: #3e3e70;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
 }
 
-.btn {
-    background-color: #078D84;
-    color: #FFFFFF;
-    padding: 16px 24px;
-    border-radius: 8px;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    border: none;
+.btn-custom {
+  background-color: #078d84;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
 }
 
 .btn-trans {
-    background-color: #078d8400;
-    color: #078D84;
-    padding: 16px 24px;
-    border-radius: 8px;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 400;
-    border: 1px solid #078D84;
+  background-color: #078d8400;
+  color: #078d84;
+  padding: 16px 24px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #078d84;
 }
 
 ul {
-    list-style-type: none;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 ul li {
-
-    display: inline;
+  display: inline;
 }
 
-
 .bg-color {
-    background-color: #F6F8FF;
+  background-color: #f6f8ff;
 }
 
 .bg1-color {
-    background-color: #3E3E70;
+  background-color: #3e3e70;
 }
 
 .bg2-color {
-    background-color: #255BF9;
+  background-color: #255bf9;
 }
 
 .bg3-color {
-    background-color: #1C1C57;
+  background-color: #1c1c57;
 }
