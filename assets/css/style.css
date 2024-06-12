@@ -32,6 +32,18 @@ p {
   margin: 0;
 }
 
+.lh-48 {
+  line-height: 48px
+}
+
+.lh-29 {
+  line-height: 29px
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
 .btn-custom {
   background-color: #078d84;
   color: #ffffff;
@@ -81,4 +93,16 @@ p {
 .hero-content h2 {
   font-size: 56px;
   line-height: 62px;
+}
+
+/* service */
+
+.service-area img {
+  max-width: 40%;
+}
+
+#service-wrapper .card {
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(16, 24, 40, 0.06) 0px 7px 29px 0px;
 }
