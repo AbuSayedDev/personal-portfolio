@@ -44,6 +44,14 @@ p {
   font-size: 24px;
 }
 
+.fs-36 {
+  font-size: 36px
+}
+
+.fs-40 {
+  font-size: 40px
+}
+
 .btn-custom {
   background-color: #078d84;
   color: #ffffff;
@@ -95,14 +103,47 @@ p {
   line-height: 62px;
 }
 
-/* service */
+/* service css*/
 
 .service-area img {
   max-width: 40%;
 }
 
-#service-wrapper .card {
+#service-wrapper .card,
+.counter-card {
   border-radius: 16px;
   background-color: #FFFFFF;
   box-shadow: rgba(16, 24, 40, 0.06) 0px 7px 29px 0px;
+}
+
+/* AboutUs css */
+.about-img {
+  position: relative;
+}
+
+.about-img img {
+  position: relative;
+  z-index: 20;
+}
+
+.about-img::after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url(../img/Ellipse.png) no-repeat;
+  bottom: -60px;
+  left: -50px;
+  position: absolute;
+  z-index: 1;
+}
+
+.about-img::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: url(../img/Ellipse1.png) no-repeat;
+  top: -48px;
+  right: -40px;
+  position: absolute;
+  z-index: 1;
 }
