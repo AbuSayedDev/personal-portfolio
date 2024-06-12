@@ -151,3 +151,70 @@ p {
 .counter-card p {
   font-size: 16px;
 }
+
+/* Review wrapper css */
+.review-bio-des h3,
+.review-bio-des p {
+  font-size: 16px;
+}
+
+.revier-star img {
+  max-width: 20px;
+}
+
+.review-bio-des {
+  position: relative;
+}
+
+.review-bio-des::after {
+  content: "";
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  right: -38px;
+  top: 0;
+  background-color: #000000;
+
+}
+
+
+#review-wrapper .owl-carousel .owl-nav button.owl-next,
+#review-wrapper .owl-carousel .owl-nav button.owl-prev {
+  font-size: 40px;
+  color: #000000;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: .6s;
+}
+
+#review-wrapper .owl-carousel .owl-nav button.owl-next span,
+#review-wrapper .owl-carousel .owl-nav button.owl-prev span {
+  position: relative;
+  top: -10px;
+}
+
+#review-wrapper .owl-prev {
+  position: absolute;
+  left: -250px;
+  top: 50%;
+  transform: translateY(-80%);
+}
+
+#review-wrapper .owl-next {
+  position: absolute;
+  right: -250px;
+  top: 50%;
+  transform: translateY(-80%);
+}
+
+#review-wrapper .owl-nav button:focus {
+  outline: none !important;
+}
+
+#review-wrapper .owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #3e3e70 !important;
+  color: #ffffff !important;
+  transition: .6s;
+}
