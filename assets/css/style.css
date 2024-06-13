@@ -40,6 +40,7 @@ p {
   line-height: 29px
 }
 
+
 .fs-24 {
   font-size: 24px;
 }
@@ -91,6 +92,22 @@ p {
 }
 
 /* Hero Wrapper Css */
+
+
+.dropdown-toggle::after {
+  background: url(../img/menu-icon.svg) no-repeat;
+  width: 100%;
+  max-width: 100%;
+  height: 10px;
+  margin-left: 0px !important;
+  margin-right: 5px;
+  vertical-align: 0px !important;
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+}
+
 
 .hero-content h1 {
   font-size: 16px;
@@ -217,4 +234,232 @@ p {
   background-color: #3e3e70 !important;
   color: #ffffff !important;
   transition: .6s;
+}
+
+/* newsletter wrapper css */
+
+.newsletter-btn .btn-custom {
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.newsletter-btn .btn-trans {
+
+  border-color: #FFFFFF;
+  color: #ffffff;
+}
+
+#newsletter-wrapper {
+  position: relative;
+}
+
+.newsletter-bgimg .img1 img {
+  content: "";
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translateX(80%);
+}
+
+.newsletter-bgimg .img2 img {
+  content: "";
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  transform: translateX(-300%);
+}
+
+.newsletter-bgimg .img3 img {
+  content: "";
+  width: 50px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(800%);
+}
+
+.newsletter-bgimg .img4 img {
+  content: "";
+  width: 100px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* footer wrapper css*/
+
+
+#footer-wrapper .footer-first-dec {
+  padding-right: 50px;
+}
+
+#footer-wrapper .subscript-form p {
+  font-size: 16px;
+}
+
+#footer-wrapper .subscript-form p:last-child {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#footer-wrapper form input {
+  padding: 16px 24px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+#footer-wrapper form input::-webkit-input-placeholder {
+  color: #505050;
+}
+
+#footer-wrapper form input:focus,
+#footer-wrapper form input:valid {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+
+#footer-wrapper form .btn-trans {
+
+  border-color: #FFFFFF;
+  color: #ffffff;
+}
+
+
+#footer-wrapper h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#footer-wrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#footer-wrapper ul li {
+  line-height: 32px;
+}
+
+#footer-wrapper ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#footer-wrapper ul li img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+
+.copy-right p {
+
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.copy-right-menu ul li {
+  padding: 8px;
+}
+
+.copy-right-menu ul li a {
+  text-decoration: underline !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .newsletter-bgimg .img2 img {
+
+    transform: translateX(-100%);
+  }
+
+  .newsletter-bgimg .img3 img {
+    transform: translateX(300%);
+  }
+
+  #review-wrapper .owl-carousel .owl-nav button.owl-next,
+  #review-wrapper .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+
+  .about-img::before {
+    top: -50px;
+    right: -11px;
+  }
+
+  .about-img::after {
+    bottom: -50px;
+    left: -34px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .review-bio-des::after {
+    right: 0;
+  }
+
+  .dropdown-toggle::after {
+    width: 8%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .client-des p {
+    text-align: center;
+  }
+
+  .review-bio-logo img {
+    width: 70% !important;
+  }
+
+  .review-bio-des::after {
+    right: 0;
+  }
+
+  .newsletter-bgimg .img1 img {
+    top: 3%;
+    transform: translateX(25%);
+  }
+
+  .newsletter-bgimg .img3 img {
+    transform: translateX(100%);
+  }
+
+  .newsletter-bgimg .img2 img {
+    top: 0%;
+    transform: translateX(0%);
+  }
+
+  .copy-right .row {
+    flex-direction: column-reverse;
+  }
+
+  .copy-right p {
+    text-align: center;
+  }
+
+  .copy-right-menu ul {
+    justify-content: center !important;
+  }
 }
